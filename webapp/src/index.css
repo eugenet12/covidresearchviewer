@@ -1,0 +1,10 @@
+body {
+  background-color: "#444";
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+}

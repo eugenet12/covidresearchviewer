@@ -1,0 +1,247 @@
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.card-deck {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.contentHeader {
+  margin-left: 20px;
+}
+
+.frontPageDeck .card {
+  border-radius: 0px;
+  background-color: #fff;
+  min-width: 15em;
+  margin-bottom: 25px;
+}
+
+.frontPageDeck .card-body {
+  padding: 0.25em 0.75em 
+}
+
+.frontPageDeck .card-footer {
+  border-top: 0px;
+}
+
+.header {
+  height: 50px;
+}
+
+.landingContainer {
+  background-image: url(/landing_background.svg);
+  background-size: cover;
+  overflow: scroll
+}
+
+.landingContainer h1 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.researchPaperContainer {
+  border-radius: 1rem;
+  margin-bottom: 10px;
+}
+
+.researchPaperSubtitle {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.subHeader {
+  background: #08A5E0;
+  box-shadow: 1px 1px 7px #999;
+  height:40px;
+}
+
+.subHeader .navbar-nav {
+  padding-left: 200px;
+  text-align: center;
+  width: calc(100% - 300px);
+}
+
+.subHeader input {
+  height: 32px;
+}
+
+.subHeader button {
+  padding-bottom: 3px;
+  padding-top: 3px;
+  height: 32px;
+}
+
+.subHeader button:hover {
+  background-color: #006D96;
+  color: #fff;
+}
+
+.topic {
+  border-radius: 0.35rem;
+  font-size: 14px;
+  margin-right: 0.2rem;
+  padding: .4rem .4rem;
+  text-align: center;
+}
+
+.topic.diagnosis {
+  border: 0.1rem solid #364f6b;
+  color: #364f6b;
+}
+
+.topic.epidemiology {
+  border: 0.1rem solid #3fc1c9;
+  color: #3fc1c9;
+}
+
+.topic.prevention {
+  border: 0.1rem solid #fc5185;
+  color: #fc5185;
+}
+
+.topic.transmission {
+  border: 0.1rem solid #b61aae;
+  color: #b61aae;
+}
+
+.topic.treatment {
+  border: 0.1rem solid #590d82;
+  color: #590d82;
+}
+
+.topic.vaccine {
+  border: 0.1rem solid #0c056d;
+  color: #0c056d;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 300;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+
+.nav-link:hover {
+  background-color: #006D96;
+}
+
+.selectedPage, .selectedPage:hover {
+  font-weight: 600;
+}
+
+.showMoreButton {
+  margin-bottom: 10px;
+}
+
+.verticalLine {
+  border-left: 0.15rem solid black;
+  margin-right: 0.5rem;
+}
+
+.verticalLineSmall {
+  border-left: 0.05rem solid black;
+  margin-right: 0.2rem;
+  padding-left: 0.3rem;
+}
+
+#about-modal {
+  max-width: 750px;  
+  width: 100%;
+}
+
+#about-modal .aboutHeader {
+  font-size: 22px;
+}
+
+#about-modal .quote {
+  font-size: 16px;
+}
+
+#about-modal .modal-body {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+#about-modal a {
+  color: #333;
+  text-decoration: underline;
+}
+
+#clinical-result-icon {
+  color: #FF3900;
+}
+
+#landing-page-button {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid white;
+}
+
+#landing-page-search-bar {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid white;
+  color: #fff;
+  width: calc(100% - 50px);
+}
+
+#landing-page-search-bar::placeholder {
+  color: #fff;
+}
+
+#landing-page-search-bar:focus {
+  outline-style: none;
+  box-shadow: 0 0 0 0.2rem rgba(255,255,255,.10)
+}
+
+#num-papers-select {
+  width: 70px;
+}
+
+#peer-review-icon {
+  color: #20b51f;
+  font-size: 1.1rem;
+}
+
+#publicationGraphContainer {
+  margin-top: 10px;
+}
+
+/* From https://stackoverflow.com/questions/55320141/search-input-with-an-icon-bootstrap-4-with-rounded-textbox */
+/* Rounded pill classes for horizontal sides */
+.rounded-pill-left {
+  border-top-left-radius: 50rem !important;
+  border-bottom-left-radius: 50rem !important;
+}
+.rounded-pill-right {
+  border-top-right-radius: 50rem !important;
+  border-bottom-right-radius: 50rem !important;
+}
+
+/* Another classes to use */
+.rounded-t-l-0 {
+  border-top-left-radius: 0 !important;
+}
+.rounded-t-r-0 {
+  border-top-right-radius: 0 !important;
+}
+.rounded-b-l-0 {
+  border-bottom-left-radius: 0 !important;
+}
+.rounded-b-r-0 {
+  border-bottom-right-radius: 0 !important;
+}
+.rounded-x-l-0 {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.rounded-x-r-0 {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}

@@ -1,0 +1,51 @@
+{
+  "name": "covid",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-regular-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.10",
+    "bootstrap": "^4.5.0",
+    "firebase-tools": "^8.4.0",
+    "highcharts": "^8.1.0",
+    "highcharts-react-official": "^3.0.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-bootstrap-typeahead": "^5.0.0-rc.1",
+    "react-dom": "^16.13.1",
+    "react-fontawesome": "^1.7.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "0.9.5",
+    "serverless": "^1.73.1"
+  },
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.0",
+    "serverless-wsgi": "^1.7.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-api-local": "cd api && python api.py",
+    "start-api-local-et": "cd api && export COVID_WEBAPP_DATA_DIR=/Users/eugenetang/Development/data/covid_19/cord19/20200609 && python api.py",
+    "build": "react-scripts build",
+    "deploy-ui": "react-scripts build && firebase deploy",
+    "deploy-api": "cd api && gcloud builds submit --tag gcr.io/coviddashboard-da40e/covid-dashboard && gcloud beta run deploy covid-dashboard --image gcr.io/coviddashboard-da40e/covid-dashboard",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

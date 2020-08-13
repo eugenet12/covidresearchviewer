@@ -1,0 +1,8 @@
+flask
+numpy
+pandas
+requests
+google-cloud-storage
+waitress
+gensim
+s3fs
