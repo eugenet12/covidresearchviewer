@@ -1,8 +1,6 @@
 # MIDS Capstone - Coronavirus Research Portal
 
-[Project Proposal](https://docs.google.com/document/d/1ujXtMOJKFUxmryclPmJcxwDa7MLjUe2DI7C29b9rkwE/edit)
-
-[Meeting Notes and Action Items](https://docs.google.com/document/d/1vuhwkow_eRqgxOY7nFwAqzMLYprgFeWusXa61iP9-Iw/edit)
+Live web app at covidresearchviewer.com
 
 ## Download Data
 Go to https://www.semanticscholar.org/cord19/download to download the raw data. You'll want the metadata and document parses data.
