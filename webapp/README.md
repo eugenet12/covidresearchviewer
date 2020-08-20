@@ -1,7 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-It was originally designed to run on Firebase with google cloud run. Some settings may need to be modified to work on AWS.
-
 ## Basic Structure
 * `api`: flask server code. 
 * `public`: template html and other public documents

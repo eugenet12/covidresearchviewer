@@ -5,6 +5,7 @@ Live web app at [covidresearchviewer.com](https://www.covidresearchviewer.com)
 ## Download Data
 Go to https://www.semanticscholar.org/cord19/download to download the raw data. You'll want the metadata and document parses data.
 
+
 Our treatment data is from the [Milken Institute](https://covid-19tracker.milkeninstitute.org/).
 
 ## Codebase Structure
