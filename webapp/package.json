@@ -18,7 +18,7 @@
     "react-dom": "^16.13.1",
     "react-fontawesome": "^1.7.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "0.9.5",
+    "react-scripts": "5.0.1",
     "serverless": "^1.73.1"
   },
   "devDependencies": {
